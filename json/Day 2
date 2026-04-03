@@ -1,0 +1,80 @@
+{
+    "cells": [
+    {
+    "cell_type": "markdown",
+    "metadata": {},
+    "source": [
+        "# 🐍 Latihan Dasar Python: Statement & Output\n",
+        "Notebook ini dibuat buat lo latihan ngetik kode berdasarkan materi dari W3Schools."
+    ]
+    },
+    {
+    "cell_type": "markdown",
+    "metadata": {},
+    "source": [
+        "### 1. Latihan Statement & Indentasi\n",
+        "**Tugas:** Cobalah buat variabel `x` bernilai 10, lalu buat statement `if` untuk nge-print \"Mantap\" jika `x` lebih besar dari 5. \n",
+        "*Ingat: Jangan lupa indentasi (spasi menjorok) setelah tanda titik dua!*"
+    ]
+    },
+    {
+    "cell_type": "code",
+    "execution_count": null,
+    "metadata": {},
+    "outputs": [],
+    "source": [
+        "# Tulis kode lo di bawah sini\n"
+    ]
+    },
+    {
+    "cell_type": "markdown",
+    "metadata": {},
+    "source": [
+        "### 2. Latihan Output (Print)\n",
+        "**Tugas:** \n",
+        "1. Buat variabel `nama` dan `hobby`.\n",
+        "2. Print kalimat: \"Nama saya [isi nama] dan hobby saya [isi hobby]\" menggunakan **koma (,)**.\n",
+        "3. Coba juga gabungin dua kata menggunakan tanda **plus (+)**."
+    ]
+    },
+    {
+    "cell_type": "code",
+    "execution_count": null,
+    "metadata": {},
+    "outputs": [],
+    "source": [
+        "# Tulis kode lo di bawah sini\n"
+    ]
+    },
+    {
+    "cell_type": "markdown",
+    "metadata": {},
+    "source": [
+        "### 3. Latihan Multi-line Statement\n",
+        "**Tugas:** Buat penjumlahan angka yang sangat panjang (misal 1-10) tapi diputus jadi 2 baris menggunakan backslash (`\\`) atau tanda kurung `()`."
+    ]
+    },
+    {
+    "cell_type": "code",
+    "execution_count": null,
+    "metadata": {},
+    "outputs": [],
+    "source": [
+        "# Tulis kode lo di bawah sini\n"
+    ]
+    }
+    ],
+    "metadata": {
+    "kernelspec": {
+    "display_name": "Python 3",
+    "language": "python",
+    "name": "python3"
+    },
+    "language_info": {
+    "name": "python",
+    "version": "3.10.0"
+    }
+    },
+    "nbformat": 4,
+    "nbformat_minor": 4
+}
