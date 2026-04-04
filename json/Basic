@@ -1,0 +1,10 @@
+{
+ "cells": [
+  { "cell_type": "markdown", "metadata": {}, "source": ["# 🟢 Part 1: Python Basics\n", "Fokus: Gimana Python nyimpen data dan ngolah angka."] },
+  { "cell_type": "markdown", "metadata": {}, "source": ["### 1. Variables & Casting\n", "**Tugas:** Buat `x = \"5\"`, ubah jadi integer, lalu kalikan 10."] },
+  { "cell_type": "code", "metadata": {}, "source": ["# Tulis kode lo\n"], "outputs": [], "execution_count": null },
+  { "cell_type": "markdown", "metadata": {}, "source": ["### 2. Booleans & Operators\n", "**Tugas:** Print hasil dari `10 > 5` dan `10 == 9`. Pakai operator `and` untuk cek apakah `5 > 1` dan `10 < 20`."] },
+  { "cell_type": "code", "metadata": {}, "source": ["# Tulis kode lo\n"], "outputs": [], "execution_count": null }
+ ],
+ "metadata": { "kernelspec": { "display_name": "Python 3", "name": "python3" }, "language_info": { "name": "python" } }, "nbformat": 4, "nbformat_minor": 4
+}

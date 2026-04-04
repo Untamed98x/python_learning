@@ -1,0 +1,108 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 🧪 Python Variables & Strings: The Deep Dive\n",
+    "\n",
+    "## A. Variable Naming & Unpacking\n",
+    "Python sangat fleksibel dalam pengisian nilai. Gunakan `snake_case` untuk nama variabel.\n",
+    "- **Multiple Assignment**: `x, y, z = 1, 2, 3`\n",
+    "- **Unpacking**: Membongkar isi list ke variabel terpisah."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "source": [
+    "# Latihan Unpacking\n",
+    "data_user = [\"Budi\", 25, \"Jakarta\"]\n",
+    "nama, umur, kota = data_user\n",
+    "\n",
+    "print(f\"User {nama} tinggal di {kota} dan berumur {umur} tahun.\")"
+   ],
+   "outputs": [],
+   "execution_count": null
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## B. Global Keyword & Scope\n",
+    "Variabel di dalam `def` (fungsi) bersifat **Local**. Gunakan keyword `global` jika ingin memodifikasi variabel di luar fungsi."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "source": [
+    "poin = 0\n",
+    "\n",
+    "def tambah_poin():\n",
+    "    global poin\n",
+    "    poin = poin + 10\n",
+    "\n",
+    "tambah_poin()\n",
+    "print(\"Poin sekarang:\", poin) # Hasilnya harus 10"
+   ],
+   "outputs": [],
+   "execution_count": null
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## C. String Indexing & Slicing\n",
+    "Format: `string[start : stop : step]`\n",
+    "- `start`: Index awal (ikut diambil).\n",
+    "- `stop`: Index akhir (TIDAK ikut diambil).\n",
+    "- `step`: Jarak lompatan antar karakter."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "source": [
+    "alphabet = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n",
+    "\n",
+    "# Ambil karakter ke-10 (Index 9)\n",
+    "print(\"Index 9:\", alphabet[9])\n",
+    "\n",
+    "# Ambil potongan dari index 0 sampai 5 (ABCDE)\n",
+    "print(\"Slicing 0-5:\", alphabet[0:5])\n",
+    "\n",
+    "# Balikkan urutan string (Reverse)\n",
+    "print(\"Reverse:\", alphabet[::-1])"
+   ],
+   "outputs": [],
+   "execution_count": null
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "--- \n",
+    "## 🛠️ FINAL CHALLENGE\n",
+    "1. Buat variabel `msg = \"Belajar Python Sangat Seru\"`.\n",
+    "2. Gunakan slicing untuk mengambil kata \"Python\" saja.\n",
+    "3. Buat fungsi `def ganti_pesan()` yang merubah isi `msg` (Global) menjadi \"Sudah Paham!\"."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "source": [
+    "# Tulis kode lo di sini\n"
+   ],
+   "outputs": [],
+   "execution_count": null
+  }
+ ],
+ "metadata": {
+  "kernelspec": { "display_name": "Python 3", "name": "python3" },
+  "language_info": { "name": "python" }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
