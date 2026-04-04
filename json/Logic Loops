@@ -1,0 +1,10 @@
+{
+ "cells": [
+  { "cell_type": "markdown", "metadata": {}, "source": ["# 🟡 Part 3: Logic & Loops\n", "Fokus: Gimana cara bikin program yang \"pintar\" dan bisa mengulang tugas."] },
+  { "cell_type": "markdown", "metadata": {}, "source": ["### 1. If...Else & Match\n", "**Tugas:** Pakai `if` buat ngecek umur. Pakai `match` buat cek hari (Senin, Selasa, dll)."] },
+  { "cell_type": "code", "metadata": {}, "source": ["# Tulis kode lo\n"], "outputs": [], "execution_count": null },
+  { "cell_type": "markdown", "metadata": {}, "source": ["### 2. For & While Loops\n", "**Tugas:** Print angka 1-10 pakai `range()`. Pakai `while` buat ngulang sampe variabel `i` jadi 5."] },
+  { "cell_type": "code", "metadata": {}, "source": ["# Tulis kode lo\n"], "outputs": [], "execution_count": null }
+ ],
+ "metadata": { "kernelspec": { "display_name": "Python 3", "name": "python3" }, "language_info": { "name": "python" } }, "nbformat": 4, "nbformat_minor": 4
+}

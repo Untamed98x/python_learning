@@ -1,0 +1,10 @@
+{
+    "cells": [
+    { "cell_type": "markdown", "metadata": {}, "source": ["# 🔵 Part 2: Data Collections\n", "Fokus: Manipulasi teks dan kumpulan data."] },
+    { "cell_type": "markdown", "metadata": {}, "source": ["### 1. Strings\n", "**Tugas:** Buat string `txt = \" Hello World \"`. Hapus spasi di awal/akhir pakai `.strip()`."] },
+    { "cell_type": "code", "metadata": {}, "source": ["# Tulis kode lo\n"], "outputs": [], "execution_count": null },
+    { "cell_type": "markdown", "metadata": {}, "source": ["### 2. Lists & Dictionaries\n", "**Tugas:** Buat list buah, ganti item pertama. Buat dictionary mobil dengan key 'brand' dan 'year'."] },
+    { "cell_type": "code", "metadata": {}, "source": ["# Tulis kode lo\n"], "outputs": [], "execution_count": null }
+    ],
+    "metadata": { "kernelspec": { "display_name": "Python 3", "name": "python3" }, "language_info": { "name": "python" } }, "nbformat": 4, "nbformat_minor": 4
+}
